@@ -1,0 +1,571 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* general styles */
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+    padding:0 32px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    margin-left: 32px;
+}
+/* custom styles */
+.home-header{
+    background-image: url("../assets/hero/services_hero.jpg");
+    padding:20px 0;
+    color:white;
+}
+.angle{
+    color:white;
+    font-size: 16px;
+    font-weight:500;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+.angle-headings{
+    color:blue;
+    text-transform: uppercase;
+}
+.contact-box{
+    width:140px;
+    height:100px;
+    padding:10px;
+    background-color: brown;
+    color:white;
+    border-radius: 4px;
+}
+.two{
+    margin:60px 0;
+}
+.header-padding{
+    background-color: white;
+    padding:20px;
+}
+.heading-one{
+    text-align: center;
+    font-size: 36px;
+    padding:40px 0;
+    font-weight: 700;
+}
+.heading-four{
+    font-size: 18px;
+    color:darkblue;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.center{
+    text-align: center;
+}
+.text{
+    font-size: 14px;
+    color:grey;
+    line-height: 1.5;
+}
+.service-width{
+    width:30.33%;
+    background-color: aliceblue;
+    padding:20px 20px;
+}
+.more-margin{
+    margin:80px 0;
+}
+.more-service{
+    width:140px;
+    height:100px;
+    border:2px solid brown;
+    font-size: 16px;
+    padding:10px;
+    text-align: center;
+    color:brown;
+    margin-top:60px;
+}
+.heading-five{
+    font-size: 14px;
+    margin:20px;
+    color:brown;
+}
+time{
+    color:grey;
+    margin: 20px 0;
+    font-size: 12px;
+}
+.five-text{
+    color:darkblue;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.recent-width{
+    width:30.33%;
+    padding:120px 0;
+}
+.aliceblue{
+    background-color: aliceblue;
+    padding:20px 30px;
+}
+.heading-two{
+    font-size: 36px;
+    color:white;
+    margin-bottom: 20px;
+}
+.call-text{
+    font-size: 12px;
+    color:white;
+    line-height: 1.5;
+}
+.detail-box{
+    width:300px;
+    height:40px;
+    padding:10px;
+    border:2px solid grey;
+    margin-right: 10px;
+    text-align: left;
+    vertical-align: middle;
+    color: white;
+    margin-bottom: 20px;
+}
+.call-section{
+    background-color: navy;
+    padding:40px 0;
+}
+.detail{
+    width:500px;
+    height:40px;
+    padding:10px;
+    border:2px solid grey;
+    margin-right: 10px;
+    text-align: left;
+    vertical-align: middle;
+    color: white;
+}
+.send{
+    width:120px;
+    height:40px;
+    background-color: brown;
+    color:white;
+    text-align: center;
+    padding:10px;
+    border-radius: 6px;
+}
+.footer-text{
+    color:grey;
+    line-height: 1.5;
+    font-size:12px;
+}
+.company-heading{
+    font-size: 20px;
+    color:darkblue;
+    margin-bottom: 20px;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.lorem{
+    font-size: 12px;
+    margin:20px 0;
+    line-height: 1.5;
+    color:grey;
+}
+.footer-logo{
+    margin-bottom: 20px;
+}
+.footer-width{
+    width:25%;
+}
+.footer{
+    padding:80px 0;
+}
+.colorlib{
+    color:brown
+}
+.copyright{
+    color:grey;
+    margin:80px 0;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+hr{
+    width:1200px;
+    margin:40px 0;
+    background-color:grey;
+}
+.about-background{
+    background-image: url("assets/hero/about_hero.jpg");
+}
+.about-box{
+    width:350px;
+    height:300px;
+    background-color: white;
+    border:2px sloid white;
+    position:relative;
+    left:280px;
+    bottom:160px;
+    padding:20px 20px;
+}
+.about-heading-two{
+    font-size:24px;
+    font-weight: 700;
+}
+.about-section{
+    padding:80px 0;
+}
+.about-article{
+    border:2px solid brown;
+    padding:20px 20px;
+    margin:20px 0;
+    width:300px;
+}
+.about-heading-three{
+    font-size: 20px;
+    color:darkblue;
+    margin:20px 0;
+}
+.team-section{
+  margin:-240px;
+  background-color: aliceblue;
+}
+.about-width{
+    width:30.33%;
+}
+.about-text{
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 20px 0;
+    color:grey;
+}
+.hr{
+    width:80px;
+    height:2px;
+    background-color: brown;
+}
+.about-heading{
+    font-size: 28px;
+    color:darkblue;
+}
+.stars{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.image{
+    margin-top:120px;
+    margin-bottom: 30px;
+}
+
+.testimonial{
+    padding:240px;
+    text-align: center;
+}
+.thomas{
+    font-size: 12px;
+    color:grey;
+}
+.about-lorem-text{
+    font-size: 14px;
+    color:darkblue;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.recent{
+    margin-top: -240px;
+}
+.about-recent{
+    margin-top: -180px;
+}
+.case-background{
+    background-image: url("assets/hero/cases_hero.jpg");
+}
+.case-heading{
+    font-size: 20px;
+    color: darkblue;
+    margin-bottom: 16px;
+}
+.case-text{
+    font-size: 12px;
+    color:grey;
+}
+.case-box{
+    width: 250px;
+    height:100px;
+    background-color: white;
+    position: relative;
+    bottom:100px;
+    padding:20px 20px;
+}
+.case-group{
+    padding:120px 0;
+}
+.case-width{
+    width:350px;
+    height:350px;
+    margin-bottom: -40px;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.contact-background{
+    background-image: url("assets/hero/contact_hero.jpg");
+}
+.map{
+    width:1200px;
+    height:400px;
+}
+.map-center{
+    text-align: center;
+    margin-top: 40px;
+}
+.contact-heading{
+    color:navy;
+    font-size: 30px;
+    margin-top:40px;
+    margin-bottom: 20px;
+}
+.message{
+    border:2px solid grey;
+    width:600px;
+    height:100px;
+    color:grey;
+    margin:20px 0;
+    padding:10px;
+}
+.name{
+    width:300px;
+    height:40px;
+    border:2px solid grey;
+    color:grey;
+    padding:10px;
+    margin-right: 10px;
+}
+.subject{
+    border:2px solid grey;
+    width:600px;
+    height:40px;
+    color:grey;
+    margin:20px 0;
+    padding:10px;
+    margin-bottom: 20px;
+}
+.con-send{
+    width:140px;
+    height:40px;
+    border:2px solid brown;
+    padding:10px;
+    color:brown;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contact-text{
+    font-size: 14px;
+    color:darkblue;
+    line-height: 1.7;
+}
+.contact-ca{
+    font-size: 12px;
+    margin-left: 12px;
+    color:grey;
+    margin-bottom: 30px;
+}
+.contact-section{
+    padding-bottom: 40px;
+}
+.blog-background{
+    background-image: url("assets/hero/blog_hero.jpg");
+}
+.blog-section{
+    padding:60px;
+}
+.jan{
+    width:70px;
+    height:60px;
+    color:white;
+    text-align: center;
+    font-size: 26px;
+    background-color: brown;
+    position:relative;
+    bottom:40px;
+    left:60px;
+    padding:6px;
+}
+.blog-heading-three{
+    font-size: 20px;
+    color:navy;
+    margin:20px 0;
+}
+.blog-text{
+    font-size: 12px;
+    line-height: 1.5;
+    margin:20px 0;
+    color:darkblue;
+}
+.blog-icons{
+    color:grey;
+    font-size: 12px;
+    margin: 20px 0;
+    word-spacing: 4px;
+}
+.blog-border{
+    background-color: white;
+    width:750px;
+    padding:20px 20px;
+    margin:30px 0;
+}
+.search-keyword{
+    width:200px;
+    height:40px;
+    padding:8px;
+    color:grey;
+    background-color: white;
+    font-size: 12px;
+    margin:10px 0;
+}
+.edge{
+    display: flex;
+    justify-content: space-between;
+}
+.search{
+    width:200px;
+    height:40px;
+    padding:8px;
+    text-align: center;
+    color: brown;
+    border:2px solid brown;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.search-background{
+    background-color: aliceblue;
+    padding:20px 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.blog-start{
+    align-items: flex-start;
+}
+.blog-post{
+    width:60px;
+    height:60px;
+}
+.blog-four{
+    color:navy;
+    font-size: 14px;
+    margin:10px 10px;
+}
+.blog-time{
+    font-size: 12px;
+    color:grey;
+    margin:10px 10px;
+}
+.blog-post-margin{
+    margin:20px 0;
+}
+.blog-p{
+    width:80px;
+    height:40px;
+    padding:10px;
+    color:darkblue;
+    font-size: 12px;
+    background-color: white;
+    margin:10px;
+}
+.blog-post-img{
+    width:80px;
+    height:80px;
+    margin:10px 10px;
+}
+.about-header{
+    font-size: 14px;
+    color:brown;
+    margin-bottom: 20px;
+}
+.home-heading{
+    color:darkblue;
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.home-border{
+    width:160px;
+    height:60px;
+    border:2px solid brown;
+    background-color: brown;
+    color:white;
+    text-align: center;
+    padding:10px 10px;
+}
+.about-img{
+    max-width: 800px;
+}
+.home-section{
+    padding:40px;
+}
+.home-margin{
+    margin:60px 0;
+}
+.home-testimonial{
+    margin-top: -300px;
+}
+.home-services{
+    margin-top: -100px;
+}
